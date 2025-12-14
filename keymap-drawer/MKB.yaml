@@ -42,7 +42,7 @@ layers:
   - LALT
   - {t: LEFT COMMAND, h: LANG5}
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: '6'}
+  - {t: BACKSPACE, h: '6'}
   - {t: RIGHT COMMAND, h: LANG4}
   - LEFT
   - DOWN
