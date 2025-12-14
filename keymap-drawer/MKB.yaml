@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - BACKSPACE
+  - LCTRL
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - SEMI
-  - SQT
+  - ENTER
   - LSHFT
   - Z
   - X
@@ -37,13 +37,13 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
-  - LGUI
+  - {t: ESC, h: '7'}
+  - LCTRL
   - LALT
+  - {t: LEFT COMMAND, h: LANG5}
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: '6'}
+  - {t: RIGHT COMMAND, h: LANG4}
   - LEFT
   - DOWN
   - RIGHT
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -120,23 +120,23 @@ layers:
   - B
   Num:
   - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
+  - Sft+Gui+3
   - MINUS
   - EQUAL
   - LBKT
@@ -144,11 +144,11 @@ layers:
   - BSLH
   - {t: ▽, type: trans}
   - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Gui+4
   - {t: ▽, type: trans}
   - FSLH
   - SEMI
@@ -156,10 +156,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ENTER
   - ENTER
   - {t: ENTER, type: held}
-  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,3 +354,121 @@ layers:
   - END
   - A
   - B
+  '6':
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - UP
+  - Ctl+E
+  - PG UP
+  - HOME
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE DOWN
+  - END
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - '1'
+  - '2'
+  - '3'
+  - Sft+9
+  - Sft+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '4'
+  - '5'
+  - '6'
+  - LBKT
+  - RBKT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - F12
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - FSLH
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
