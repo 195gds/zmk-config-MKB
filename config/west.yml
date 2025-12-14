@@ -44,6 +44,8 @@ manifest:
     - name: zmk-driver-MLX90393
       remote: te9no
       revision: main
+      import: init/pmw3610_init.yml
   self:
     path: config
+
     
