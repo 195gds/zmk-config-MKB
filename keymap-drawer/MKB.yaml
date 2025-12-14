@@ -41,7 +41,7 @@ layers:
   - LCTRL
   - LALT
   - {t: LEFT COMMAND, h: LANG5}
-  - {t: SPACE, h: Num}
+  - {t: MINUS, h: Num}
   - {t: BACKSPACE, h: '6'}
   - {t: RIGHT COMMAND, h: LANG4}
   - LEFT
