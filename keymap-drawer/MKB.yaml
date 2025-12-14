@@ -37,7 +37,7 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: '7'}
+  - {t: ESC, h: '1'}
   - LCTRL
   - LALT
   - {t: LEFT COMMAND, h: LANG5}
@@ -59,7 +59,7 @@ layers:
   - END
   - A
   - B
-  '7':
+  '1':
   - {t: ▽, type: trans}
   - F1
   - F2
