@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
   - {t: BACKSPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: LANGUAGE 1, h: Num}
   - LEFT
   - DOWN
   - RIGHT
@@ -197,8 +197,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {type: held}
@@ -256,10 +256,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
   - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - Scr
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
