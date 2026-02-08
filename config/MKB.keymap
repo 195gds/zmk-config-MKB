@@ -20,14 +20,27 @@
     require-prior-idle-ms = <150>;
 };
 
+/* 1. スクロールの感度設定 */
 &zip_scroll_scaler {
     status = "okay";
     amount = <10>; 
 };
 
-/* レイヤー4(SCROLL)がアクティブな間、トラックボールをスクロールにする */
-&input_processor_scroll {
-    layers = <4>; 
+/ {
+    /* 2. 入力変換プロセッサの定義 */
+    behaviors {
+        trackball_scroll_processor: trackball_scroll_processor {
+            compatible = "zmk,input-processor-transform";
+            #input-processor-cells = <0>;
+            type = <INPUT_REL_XY>;
+            data = <INPUT_REL_WHEEL>;
+        };
+    };
+};
+
+/* 3. トラックボール設定の上書き（ / { } の外に出す ） */
+&trackball {
+    input-processors = <&trackball_scroll_processor>;
 };
 
 / {
