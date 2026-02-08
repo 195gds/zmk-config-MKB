@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: MINUS, h: Scr}
+  - MINUS
   - LCTRL
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - SEMI
-  - {t: ENTER, h: Mouse}
+  - ENTER
   - LSHFT
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - {t: SLASH, h: BT}
+  - SLASH
   - {t: ESC, h: LCTL}
   - LEFT ALT
   - {t: LANG2, h: LEFT COMMAND}
@@ -201,7 +201,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -331,7 +331,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
