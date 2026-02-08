@@ -20,6 +20,16 @@
     require-prior-idle-ms = <150>;
 };
 
+&zip_scroll_scaler {
+    status = "okay";
+    amount = <10>; 
+};
+
+/* レイヤー4(SCROLL)がアクティブな間、トラックボールをスクロールにする */
+&input_processor_scroll {
+    layers = <4>; 
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
