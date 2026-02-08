@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MINUS
+  - {t: MINUS, h: Fnc}
   - LCTRL
   - A
   - S
@@ -38,10 +38,10 @@ layers:
   - UP
   - SLASH
   - {t: ESC, h: LCTL}
+  - LCTRL
   - LEFT ALT
   - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
   - {t: BACKSPACE, h: Fnc}
   - {t: LANGUAGE 1, h: Num}
   - LEFT
@@ -71,7 +71,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - EQUAL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
