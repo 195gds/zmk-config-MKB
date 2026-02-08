@@ -21,9 +21,9 @@ layers:
   - G
   - H
   - J
-  - {t: K, h: Fnc}
+  - K
   - L
-  - SEMI
+  - {t: SEMI, h: Fnc}
   - ENTER
   - LSHFT
   - Z
