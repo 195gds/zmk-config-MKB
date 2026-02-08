@@ -20,33 +20,6 @@
     require-prior-idle-ms = <150>;
 };
 
-/* 1. スクロールの感度（お好みで調整） */
-
-&zip_scroll_scaler {
-    status = "okay";
-    amount = <10>;
-};
-
-/* 2. 入力変換の定義 */
-
-/ {
-    behaviors {
-        // ボール移動をスクロールに変換する「魔法」の定義
-
-        tb_scroll: tb_scroll {
-            compatible = "zmk,input-processor-transform";
-            #input-processor-cells = <0>;
-            type = <0x02>; // 移動
-            data = <0x08>; // スクロール
-        };
-    };
-};
-
-/* 3. トラックボールに「レイヤー4の時だけ変換して」と指示 */
-/* ここが重要です。名前が違うとエラーになるので、まずは peripheral を試します */
-
-&trackball_peripheral { input-processors = <&tb_scroll>; };
-
 / {
     keymap {
         compatible = "zmk,keymap";
