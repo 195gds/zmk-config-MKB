@@ -32,13 +32,14 @@
         trackball_scroll_processor: trackball_scroll_processor {
             compatible = "zmk,input-processor-transform";
             #input-processor-cells = <0>;
-            type = <INPUT_REL_XY>;
-            data = <INPUT_REL_WHEEL>;
+            type = <0x02>;   /* INPUT_REL_XY の代わりに直接 0x02 を指定 */
+            data = <0x08>;   /* INPUT_REL_WHEEL の代わりに直接 0x08 を指定 */
         };
     };
 };
 
-/* 3. トラックボール設定の上書き（ / { } の外に出す ） */
+/* 3. トラックボール設定の上書き */
+/* もし &trackball でエラーが出るなら、ここを &trackball_peripheral に変えてみてください */
 &trackball {
     input-processors = <&trackball_scroll_processor>;
 };
